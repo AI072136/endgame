@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+  FILE *sc;
+  sc=fopen(./user.txt,a);
+  if(fp != NULL) { //檢查fp是否為NULL來判斷是否開檔成功   //在這邊處理檔案 } else {   printf("File open error!\n");   return EXIT_FAILURE; }
+}
